@@ -1,7 +1,7 @@
 {
-  "name": "Uk Postal Code ",
-  "description": "Uk Postal Code ",
-  "repository": "https://github.com/jayaprakashlfc/JPPostcode",
+  "name": "Uk Postal Code",
+  "description": "Uk Postal Code",
+  "repository": "https://github.com/jayaprakashlfc/postjp",
   "logo": "http://xvir.github.io/img/apiai.png",
   "keywords": [
     "dialogflow",
