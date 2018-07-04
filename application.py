@@ -10,10 +10,10 @@ from flask import request
 from flask import make_response
 
 # Flask app should start in global layout
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route('/webhook', methods=['POST'])
+@application.route('/webhook', methods=['POST'])
 def webhook():
     req = request.get_json(silent=True, force=True)
 
@@ -80,4 +80,4 @@ if __name__ == '__main__':
     #to debug in local environmnet
     port = 8080
 
-    app.run(debug=True, port=port, host='0.0.0.0')
+    application.run(debug=True, port=port, host='0.0.0.0')
